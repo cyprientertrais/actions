@@ -5,6 +5,7 @@ on:
       repo-name: 
         description: 'Name of the repository to be created'
         required: true
+        type: 'string'
         default: ''
 
 jobs:
