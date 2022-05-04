@@ -1,6 +1,6 @@
 name: Create Repo
 on: 
-  workflow_dispatch:
+  workflow_call:
     inputs:
       repo-name: 
         description: 'Name of the repository to be created'
